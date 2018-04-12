@@ -3,7 +3,7 @@ require 'pry'
 class Pokemon
   attr_accessor :name, :type, :db
 
-  def initialize(name:, type:, db:)
+  def initialize(id, name:, type:, db:)
     @name = name
     @type = type
     @db = db
@@ -12,6 +12,6 @@ class Pokemon
   def self.save
     
   end
-  
+
 
 end
